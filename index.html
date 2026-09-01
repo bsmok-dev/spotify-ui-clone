@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify UI Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <div class="sidebar_left">
+        <section class="home">
+          <div class="home_content">
+            <div class="home_home">
+              <img class="home_icon" src="icons/Home_Fill_S.png" alt="Home" />
+              <p class="home_text">Home</p>
+            </div>
+            <div class="home_search">
+              <img class="search_icon" src="icons/Search_S.png" alt="Search" />
+              <p class="search_text">Search</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="library">
+          <div class="library_main">
+            <div class="upper_library">
+              <div class="library_header">
+                <div class="library_left">
+                  <img src="icons/Library_Fill_S.png" alt="Library" />
+                  <h1 class="library_title">Your Library</h1>
+                </div>
+                <div class="library_right">
+                  <img src="icons/+Library_S.png" alt="Add to library" />
+                  <img src="icons/FullScreen_S.png" alt="Expand" />
+                </div>
+              </div>
+
+              <div class="library_buttons">
+                <button class="playlists">Playlists</button>
+                <button class="podcasts">Podcasts</button>
+                <button class="albums">Albums</button>
+                <button class="artists">Artists</button>
+              </div>
+            </div>
+
+            <div class="bottom_library">
+              <div class="library_extras">
+                <img
+                  class="library_search"
+                  src="icons/Search_S.png"
+                  alt="Search library"
+                />
+                <h3>Recents</h3>
+                <img src="icons/Options2_XS.png" alt="Options" />
+              </div>
+              <div class="library_content">
+                <div class="library_playlists">
+                  <div class="playlist_item allliked_songs">
+                    <div class="liked_songs">
+                      <img class="like" src="icons/heart_vec.png" alt="Likes" />
+                    </div>
+                    <div class="playlist_texts">
+                      <h2>Liked Songs</h2>
+                      <h3>Playlist • buckyx</h3>
+                    </div>
+                  </div>
+
+                  <div class="playlist_item active">
+                    <img
+                      class="capa_playlist"
+                      src="icons/junoplaylist.jpeg"
+                      alt="Juno"
+                    />
+                    <div class="playlist_texts">
+                      <h2>juno</h2>
+                      <h3>Playlist • buckyx and júlia</h3>
+                    </div>
+                    <img
+                      class="playing"
+                      src="icons/Volume_XS_green.png"
+                      alt="Playing"
+                    />
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="capa_playlist"
+                      src="icons/XTRANHO.jpg"
+                      alt="XTRANHO"
+                    />
+                    <div class="playlist_texts">
+                      <h2>XTRANHO</h2>
+                      <h3>Album • Matuê</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img class="capa_playlist" src="icons/333.jpg" alt="333" />
+                    <div class="playlist_texts">
+                      <h2>333</h2>
+                      <h3>Album • Matuê</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="capa_playlist"
+                      src="icons/maquina_do_tempo.jpg"
+                      alt="Máquina do Tempo"
+                    />
+                    <div class="playlist_texts">
+                      <h2>Máquina do Tempo</h2>
+                      <h3>Album • Matuê</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="capa_playlist"
+                      src="icons/ISSO_E_TRAP_VOL.2.jpg"
+                      alt="ISSO É TRAP VOL.2"
+                    />
+                    <div class="playlist_texts">
+                      <h2>ISSO É TRAP VOL.2</h2>
+                      <h3>Album • Brandão85</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="capa_playlist"
+                      src="icons/ISSO_E_TRAP.jpg"
+                      alt="ISSO É TRAP"
+                    />
+                    <div class="playlist_texts">
+                      <h2>ISSO É TRAP</h2>
+                      <h3>Album • Brandão85</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img class="capa_playlist" src="icons/ceo.jpg" alt="CEO" />
+                    <div class="playlist_texts">
+                      <h2>CEO</h2>
+                      <h3>Album • Brandão85</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="playlist_artist_cape"
+                      src="icons/Matue.jpg"
+                      alt="Matuê"
+                    />
+                    <div class="playlist_texts">
+                      <h2>Matuê</h2>
+                      <h3>Artist</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="playlist_artist_cape"
+                      src="icons/Brandao.jpg"
+                      alt="Brandão85"
+                    />
+                    <div class="playlist_texts">
+                      <h2>Brandão85</h2>
+                      <h3>Artist</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="playlist_artist_cape"
+                      src="icons/Travis_Scott.jpg"
+                      alt="Travis Scott"
+                    />
+                    <div class="playlist_texts">
+                      <h2>Travis Scott</h2>
+                      <h3>Artist</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="playlist_artist_cape"
+                      src="icons/Drake.jpg"
+                      alt="Drake"
+                    />
+                    <div class="playlist_texts">
+                      <h2>Drake</h2>
+                      <h3>Artist</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="playlist_artist_cape"
+                      src="icons/Chase_Atlantic.jpg"
+                      alt="Chase Atlantic"
+                    />
+                    <div class="playlist_texts">
+                      <h2>Chase Atlantic</h2>
+                      <h3>Artist</h3>
+                    </div>
+                  </div>
+                  <div class="playlist_item">
+                    <img
+                      class="playlist_artist_cape"
+                      src="icons/Juice_WRLD.jpg"
+                      alt="Juice WRLD"
+                    />
+                    <div class="playlist_texts">
+                      <h2>Juice WRLD</h2>
+                      <h3>Artist</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="main_content">
+        <main>
+          <div class="main_header">
+            <div class="main_buttons">
+              <button class="mainall">All</button>
+              <button class="mainmusic">Musics</button>
+              <button class="mainpodcasts">Podcasts</button>
+            </div>
+            <div class="login">
+              <img src="icons/bucky.jpg" alt="user" />
+            </div>
+          </div>
+
+          <div class="first_mc">
+            <div class="banner_item">
+              <div class="banner_cape">
+                <img src="icons/junoplaylist.jpeg" alt="" />
+              </div>
+              <div class="banner_text">
+                <h2>juno</h2>
+              </div>
+
+              <button class="banner_play_btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="black">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="banner_item">
+              <div class="banner_cape">
+                <img src="icons/XTRANHO.jpg" alt="" />
+              </div>
+              <div class="banner_text">
+                <h2>XTRANHO</h2>
+              </div>
+
+              <button class="banner_play_btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="black">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="banner_item">
+              <div class="banner_cape">
+                <img src="icons/PSIIIKO_RADIIIO.jpg" alt="" />
+              </div>
+              <div class="banner_text">
+                <h2>PSIIIKO RADIIIO</h2>
+              </div>
+
+              <button class="banner_play_btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="black">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="banner_item">
+              <div class="banner_cape">
+                <img src="icons/ISSO_E_TRAP_VOL.2.jpg" alt="" />
+              </div>
+              <div class="banner_text">
+                <h2>ISSO É TRAP VOL.2</h2>
+              </div>
+
+              <button class="banner_play_btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="black">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="banner_item">
+              <div class="banner_cape">
+                <img src="icons/PHASES.jpg" alt="" />
+              </div>
+              <div class="banner_text">
+                <h2>PHASES</h2>
+              </div>
+
+              <button class="banner_play_btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="black">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="banner_item">
+              <div class="banner_cape">
+                <img src="icons/ICEMAN.jpg" alt="" />
+              </div>
+              <div class="banner_text">
+                <h2>ICEMAN</h2>
+              </div>
+
+              <button class="banner_play_btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="black">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="banner_item">
+              <div class="banner_cape">
+                <img src="icons/333.jpg" alt="" />
+              </div>
+              <div class="banner_text">
+                <h2>333</h2>
+              </div>
+
+              <button class="banner_play_btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="black">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="banner_item">
+              <div class="banner_cape">
+                <img src="icons/ASTROWORLD.jpg" alt="" />
+              </div>
+              <div class="banner_text">
+                <h2>ASTROWORLD</h2>
+              </div>
+
+              <button class="banner_play_btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="black">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="second_title">
+            <h2>Your songs miss you</h2>
+          </div>
+          <div class="second_mc">
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/VETIIIN_E_PSIIIKO.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>VETIIIN & PSIIIKO</h2>
+                <h3>DESSIIIK, Leviano</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/ARIRANG.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>ARIRANG</h2>
+                <h3>BTS</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/DRFL.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Death Race For Love <br />(Bonus Track Version)</h2>
+                <h3>Juice WRLD</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/Oh_yeah.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Oh yeah?</h2>
+                <h3>Steve Lacy</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/SSS4U.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>$ome $exy $ongs 4 U</h2>
+                <h3>PARTYNEXTDOOR, Drake</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/LOST_IN_HEAVEN.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>LOST IN HEAVEN</h2>
+                <h3>Chase Atlantic</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="third_title">
+            <h2>Made for</h2>
+            <h3>buckyx</h3>
+          </div>
+
+          <div class="third_mc">
+            <div class="card_item">
+              <div class="card_cape">
+                <img
+                  src="icons/spotify-artwork-discover-weekly-3000x3000.jpg"
+                  alt="Cover"
+                />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h3>
+                  Your shortcut to hidden gems, deep cuts, and future faves,
+                  updated every Monday. You'll know when you hear it.
+                </h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img
+                  src="icons/spotify-artwork-daily-mix-1-3000x3000.jpg"
+                  alt="Cover"
+                />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h3>Post Malone, Kendrick Lamar, Travis Scott and more</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img
+                  src="icons/spotify-artwork-daily-mix-2-3000x3000.jpg"
+                  alt="Cover"
+                />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h3>Brandão85, DESSIIIK, Leviano and more</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img
+                  src="icons/spotify-artwork-daily-mix-3-3000x3000.jpg"
+                  alt="Cover"
+                />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h3>21 Savage, Drake, Future and more</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img
+                  src="icons/spotify-artwork-daily-mix-4-3000x3000.jpg"
+                  alt="Cover"
+                />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h3>Chase Atlantic, SZA, PARTYNEXTDOOR and more</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img
+                  src="icons/spotify-artwork-daily-mix-5-320x320.jpg"
+                  alt="Cover"
+                />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h3>Juice WRLD, XXXTENTACION, Lil Peep and more</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="forth_title">
+            <h2>Recents</h2>
+          </div>
+
+          <div class="forth_mc">
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/DONT_TRY_THIS.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>DON'T TRY THIS</h2>
+                <h3>Album • Chase Atlantic</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/LOST_IN_HEAVEN.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>LOST IN HEAVEN</h2>
+                <h3>Album • Chase Atlantic</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/000.FM.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>000.FM</h2>
+                <h3>Album • DESSIIIK</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/PHASES.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>PHASES</h2>
+                <h3>Album • Chase Atlantic</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/XTRANHO.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>XTRANHO</h2>
+                <h3>Album • Matuê</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/PSIIIKO_RADIIIO.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>PSIIIKO RADIIIO</h2>
+                <h3>Album • DESSIIIK</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="fifth_title">
+            <h2>Albums with the songs you love</h2>
+          </div>
+
+          <div class="fifth_mc">
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/SPIDERVERSE.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>METRO BOOMIN PRESENTS SPIDER-...</h2>
+                <h3>Metro Boomin</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/CHASE_ATLANTIC_ALBUM.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Chase Atlantic</h2>
+                <h3>Chase Atlantic</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/Paradise.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Paradise - EP</h2>
+                <h3>Chase Atlantic</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/UTOPIA.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>UTOPIA</h2>
+                <h3>Travis Scott</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/333.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>333</h2>
+                <h3>Matuê</h3>
+              </div>
+            </div>
+            <div class="card_item">
+              <div class="card_cape">
+                <img src="icons/DRFL.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Death Race For Love (Bonus Track Version)</h2>
+                <h3>Juice WRLD</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="sixth_title">
+            <h2>Your favorite artists</h2>
+          </div>
+
+          <div class="sixth_mc">
+            <div class="card_item">
+              <div class="artist_cape">
+                <img src="icons/Matue.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Matuê</h2>
+                <h3>Artist</h3>
+              </div>
+            </div>
+
+            <div class="card_item">
+              <div class="artist_cape">
+                <img src="icons/Brandao.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Brandão85</h2>
+                <h3>Artist</h3>
+              </div>
+            </div>
+
+            <div class="card_item">
+              <div class="artist_cape">
+                <img src="icons/Travis_Scott.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Travis Scott</h2>
+                <h3>Artist</h3>
+              </div>
+            </div>
+
+            <div class="card_item">
+              <div class="artist_cape">
+                <img class="drake" src="icons/DRAKE.webp" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Drake</h2>
+                <h3>Artist</h3>
+              </div>
+            </div>
+
+            <div class="card_item">
+              <div class="artist_cape">
+                <img src="icons/Chase_Atlantic.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Chase Atlantic</h2>
+                <h3>Artist</h3>
+              </div>
+            </div>
+
+            <div class="card_item">
+              <div class="artist_cape">
+                <img src="icons/Juice_WRLD.jpg" alt="Cover" />
+
+                <button class="play_btn">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="black">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="card_text">
+                <h2>Juice WRLD</h2>
+                <h3>Artist</h3>
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+
+      <section class="info">
+        <h2>juno</h2>
+        <img class="info_cover" src="icons/ARIRANG.jpg" alt="Larger cover" />
+
+        <div class="song_extras">
+          <div class="author">
+            <p class="song">Like Animals</p>
+            <p class="singer">BTS</p>
+          </div>
+          <img class="like" src="icons/greenheart_vector.png" alt="Like" />
+        </div>
+
+        <div class="info_content">
+          <div class="artist_photo_container">
+            <img
+              class="info_photo"
+              src="icons/bts-header.jpg"
+              alt="Artist photo"
+            />
+            <h3>About the artist</h3>
+          </div>
+
+          <h4>BTS</h4>
+
+          <div class="follower">
+            <p class="listeners">34.018.033 monthly listeners</p>
+            <button class="follow_button">Follow</button>
+          </div>
+
+          <p class="bio">
+            BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene,” are a
+            GRAMMY-...
+          </p>
+        </div>
+
+        <div class="credits">
+          <div class="cr_first">
+            <div class="cr_title">
+              <h2>Credits</h2>
+            </div>
+            <h3>Show All</h3>
+          </div>
+
+          <div class="cr_content">
+            <div class="cr_header">
+              <div class="cr_mainartist">
+                <h2>BTS</h2>
+                <h3>Main Artist</h3>
+              </div>
+              <button class="follow_button">Follow</button>
+            </div>
+
+            <div class="authors">
+              <h2>Toby Daintree</h2>
+              <h3>Letterist . Authors</h3>
+            </div>
+
+            <div class="authors">
+              <h2>Kevin White</h2>
+              <h3>Letterist . Authors</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="player">
+      <div class="music">
+        <img class="cape" src="icons/ARIRANG.jpg" alt="Song cover" />
+        <div class="author">
+          <p class="song">Like Animals</p>
+          <p class="singer">BTS</p>
+        </div>
+        <img class="like" src="icons/greenheart_vector.png" alt="Like" />
+      </div>
+
+      <div class="controles-container">
+        <div class="controles">
+          <img
+            class="controles_shuffle"
+            src="icons/Shuffle_S.png"
+            alt="Shuffle"
+          />
+          <img
+            class="controles_pular"
+            src="icons/Property_1=Prev_S.png"
+            alt="Previous"
+          />
+          <img
+            class="controles_pause"
+            src="icons/Property_1=Play_L.png"
+            alt="Play/Pause"
+          />
+          <img
+            class="controles_pular"
+            src="icons/Property_1=Next_S.png"
+            alt="Next"
+          />
+          <img class="controles_repeat" src="icons/Repeat_S.png" alt="Repeat" />
+        </div>
+        <div class="progressbar">
+          <h4>1:25</h4>
+          <img class="barra" src="icons/progressbar.png" alt="Progress bar" />
+          <h4>3:09</h4>
+        </div>
+      </div>
+
+      <div class="player-right">
+        <img class="pr_queue" src="icons/Queue_XS.png" alt="Queue" />
+        <img class="pr_devices" src="icons/Devices_XS.png" alt="Devices" />
+        <img class="pr_volume" src="icons/Volume_XS.png" alt="Volume" />
+        <img class="pr_soundbar" src="icons/soundbar.png" alt="Volume bar" />
+        <img
+          class="pr_fullscreen"
+          src="icons/FullScreen_S.png"
+          alt="Full screen"
+        />
+      </div>
+    </section>
+  </body>
+</html>
